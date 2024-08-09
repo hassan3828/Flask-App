@@ -24,7 +24,6 @@ def login():
 
         else:
 
-            return 'Invalid username or password. Please try again.'
             return render_template('index.html')
 
 
