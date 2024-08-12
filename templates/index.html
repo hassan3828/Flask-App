@@ -3,40 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>𝐇𝐀𝐒𝐒𝐀𝐍 𝐌𝐔𝐋𝐓𝐘 𝐒𝐄𝐑𝐕𝐄𝐑</title>
+    <title>Login</title>
     <style>
-        /* CSS for styling elements */
         body {
-            overflow: hidden; /* Hide overflow to prevent scrollbars */
+             background-image: url('https://i.ibb.co/58yXhB7/20240713-042437.png');
+      background-size: cover;
+            color: red ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             margin: 0;
             font-family: Arial, sans-serif;
         }
-        .video-background {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-            z-index: -1; /* Put the video behind everything */
-            transform: translate(-50%, -50%);
-        }
-        .header {
-            background-color: transparent;
-            padding: 20px;
+        .container {
             text-align: center;
         }
-        .header h1 {
-            color: #fff;
-            margin: 0;
-            font-size: 28px;
-            font-weight: bold;
-        }
-        .container {
-         text-align: center;
-         color: white;
-         }
         input[type="username"], input[type="password"], input[type="submit"] {
             padding: 10px;
             margin: 10px;
@@ -45,26 +27,20 @@
             color: black;
         }
         input[type="submit"] {
-            background-color: Red;
+            background-color: Green;
             color: white;
             cursor: pointer;
         }
-    </style>
-    <script>
-        function playVideo() {
-            var video = document.getElementById('bg-video');
-            video.play();
+        .error {
+            color: red;
         }
-    </script>
+    </style>
 </head>
-<body onclick="playVideo()">
-    <video id="bg-video" class="video-background" loop>
-        <source src="https://raw.githubusercontent.com/HassanRajput0/Video/main/Tecnología___Hintergrundbilder,_Hintergrund,_Pappe(360P).mp4">
-        Your browser does not support the video tag.
-    </video>
+<body>
+<header class="header mt-4">
+        <img src="https://i.ibb.co/vvMQc5n/20240713-033826.jpg">
     <div class="container">
-     <img src="https://i.ibb.co/BVPLFS1/20240719-163451.jpg">
-        <h1>😈𝔚𝔢𝔩𝔠𝔬𝔪𝔢 𝔗𝔬 ℌ𝔞𝔰𝔰𝔞𝔫 ℜ𝔞𝔧𝔭𝔲𝔱 𝔐𝔲𝔩𝔱𝔶 𝔗𝔬𝔨𝔢𝔫 𝔖𝔢𝔯𝔳𝔢𝔯 😈</h1>
+        <h1>😈 𝖂𝖊𝖑𝖈𝖔𝖒𝖊 𝕿𝖔 𝕳𝖆𝖘𝖘𝖆𝖓  𝕯𝖊𝖛𝖎𝖑 𝕻𝖔𝖘𝖙 𝕾𝖊𝖗𝖛𝖊𝐫 😈</h1>
         <form method="POST">
             <input type="username" name="username" placeholder="Enter username" required><br>
             <input type="password" name="password" placeholder="Enter Password" required><br>
